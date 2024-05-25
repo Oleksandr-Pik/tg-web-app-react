@@ -15,11 +15,11 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
+      <Header />
       {/* <button onClick={onToggleButton}>toggle</button> */}
       <Routes>
-        <Route index element={<ProductList/>}/>
-        <Route path={"form"} element={<Form/>}/>
+        <Route index element={<ProductList />} />
+        <Route path={"form"} element={<Form />} />
       </Routes>
     </div>
   );
